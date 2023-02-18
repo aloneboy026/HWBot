@@ -133,15 +133,15 @@ buttons = [
     [
         InlineKeyboardButton(text="📓 Commands", callback_data="help_back"),
         InlineKeyboardButton(
-            text="Source 🌐", url="https://github.com/ArshCypherZ/HWBot"
+            text="Lover 💞", url="t.me/selfie_papa"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="Support 🥂", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="Support 😂", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
         InlineKeyboardButton(
-            text="Updates 🏃‍♂️", url=f"https://t.me/{UPDATES_CHANNEL}"
+            text="Updates 🥵", url=f"https://t.me/{UPDATES_CHANNEL}"
         ),
     ],
 ]
@@ -282,18 +282,18 @@ def start(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Support ✨",
+                            text="Support 😂",
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="Updates 🌻",
+                            text="Updates 🥵",
                             url=f"https://telegram.dog/{UPDATES_CHANNEL}",
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Source 🌐",
-                            url="https://github.com/ArshCypherZ/HWBOT",
+                            text="Lover 💞",
+                            url="https://t.me/selfie_papa",
                         )
                     ],
                 ]
